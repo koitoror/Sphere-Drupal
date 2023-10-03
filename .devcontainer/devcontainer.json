@@ -1,7 +1,49 @@
 {
+    "name": "Drupal 10 Development of Sphere Portfolio",
     "image": "mcr.microsoft.com/devcontainers/universal:2",
     "features": {
         "ghcr.io/ddev/ddev/install-ddev:latest": {}
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "php.validate.executablePath": "/usr/bin/php",
+                "php.suggest.basic": false
+            },
+            "extensions": [
+                "drupal.drupal",
+                "felixfbecker.php-intellisense",
+                "editorconfig.editorconfig",
+                "dbaeumer.vscode-eslint",
+                "drupal.drupal-8-to-9-upgrade",
+                "drupal.drupal-check",
+                "drupal.drupal-extension-pack",
+                "bmewburn.vscode-intelephense-client",
+                "usernamehw.errorlens",
+                "editorconfig.editorconfig",
+                "drupal.theme-potion",
+                "dbaeumer.vscode-eslint",
+                "drupal.drupal-check",
+                "drupal.blame",
+                "drupal.devel",
+                "drupal.drush",
+                "drupal.bootstrap",
+                "drupal.twig",
+                "drupal.theme-studio",
+                "drupal.doctrine",
+                "drupal.theme-libraries",
+                "drupal.coder",
+                "drupal.kint",
+                "drupal.tome",
+                "drupal.annotation-file-loader",
+                "drupal.acquia-purge",
+                "drupal.acquia-seo",
+                "drupal.theme-studio",
+                "drupal.page-manager",
+                "drupal.drupal-sonar",
+                "drupal.vardoc"
+            ]
+        }
     },
     "portsAttributes": {
         "3306": {

@@ -26,7 +26,7 @@ Follow these steps to set up your development environment for this Drupal 10 pro
 2. **Clone the Repository**: In your Codespaces account, create a new Codespace or open an existing one. Then, clone your forked repository into the Codespace by running the following commands in the terminal:
 
    ```bash
-   git clone https://github.com/your-username/drupal-10-project.git
+   git clone https://github.com/koitoror/Sphere-Drupal.git
    cd drupal-10-project
    ```
 
